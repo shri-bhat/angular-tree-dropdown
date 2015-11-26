@@ -56,8 +56,8 @@ $scope.treeData =
 
 If tree-dropdown item is selected, then that selected tree-dropdown item is saved to $scope.selected. Also default tree-dropdown item selection can be done from the $scope.selected.
 
+## License
+
 The MIT License.
 
 Copyright ⓒ 2015 Shripad Bhat
-
-See [LICENSE](https://github.com/sphonasepal/angular-tree-dropdown/blob/master/LICENSE)
