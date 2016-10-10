@@ -30,7 +30,7 @@
                     list.html('');
 
                     if (!scope.selected) {
-                        setSelected(scope, null);
+                        setSelected(scope, undefined);
                     }
                     var options = getOptions(scope, scope.data, 0);
                     list.append($compile(options)(scope));
@@ -93,7 +93,7 @@
             if (obj) {
                 scope.selected = obj;
             } else {
-                scope.selected = null;
+                scope.selected = undefined;
             }
         }
     }
